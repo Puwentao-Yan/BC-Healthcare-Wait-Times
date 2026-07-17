@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw data files — re-download from BC Data Catalogue
+data/raw/*.xlsx
+
+# Processed CSV kept, database excluded
+data/*.db
